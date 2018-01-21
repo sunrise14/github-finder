@@ -10,6 +10,7 @@ document.getElementById("searchUser").addEventListener('keyup', (e)=>{
             }
             else{
                 ui.showProfile(data.profile);
+                ui.showRepos(data.repos);
             }
         })
     }
